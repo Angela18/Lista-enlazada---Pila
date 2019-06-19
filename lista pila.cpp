@@ -26,11 +26,11 @@ class Pila{
     Nodo<T> *inicio;
 public:
     Pila();
-    void push();
-    void pop();
-    void show();
-    void top();
-    void tam();
+    void push(); //apila
+    void pop(); //desapilar
+    void show(); //mostrar
+    void top(); //tope
+    void tam(); //tamaño de pila
 };
 
 template<typename T>
