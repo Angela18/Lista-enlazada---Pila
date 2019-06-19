@@ -4,10 +4,10 @@ using namespace std;
 
 template<typename T>
 class Nodo{
-public:
+
     T dato;
     Nodo<T> *next;
-
+public:
     Nodo(T);
     ~Nodo();
 };
@@ -106,7 +106,7 @@ void Pila<T>::tam(){
             cont++;
             aux1 = aux1->next;
         }
-        cout<<"El tamaño de la pila es: "<<cont<<"\n"<<endl;
+        cout<<"El tamaÃ±o de la pila es: "<<cont<<"\n"<<endl;
     }
 }
 ///CLASE COLA
@@ -187,7 +187,7 @@ int main(){
         cout<<"2.Pop"<<endl;
         cout<<"3.Show"<<endl;
         cout<<"4.Top"<<endl;
-        cout<<"5.Tamaño"<<endl;
+        cout<<"5.TamaÃ±o"<<endl;
         cout<<"---- Cola en lista enlazada ----"<<endl;
         cout<<"6.Insertar Cola"<<endl;
         cout<<"7.Eliminar Cola"<<endl;
